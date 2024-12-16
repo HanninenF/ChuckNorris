@@ -7,7 +7,17 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="joke"></div>
+    <section id="upper">
+      <h2>Get Chuck Norris Jokes by category</h2>
+      <form id="category-form" action="">
+        <label for="dropdown-menu">Category</label>
+        <select name="dropdown-menu" id="dropdown-menu" required>
+          <option value="">-- Select a category --</option>
+          <option value="animal">Animal</option>
+        </select>
+      </form>
+    </section>
+    <section id="middle"></section>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
